@@ -1,0 +1,13 @@
+{
+  "name": "fzf_furnace_test",
+  "image": "mcr.microsoft.com/devcontainers/go:1-1.23-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/ruby:1": {
+      "version": "3.2"
+    }
+  },
+  "workspaceFolder": "/workspaces/fzf_furnace_test"
+}
