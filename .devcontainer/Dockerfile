@@ -9,6 +9,7 @@ RUN rm -f /etc/apt/sources.list.d/yarn.list \
       bundler \
       zsh \
       fish \
+    && gem install bundler -v 2.6.2 --no-document \
     && rm -rf /var/lib/apt/lists/*
 
 RUN if ! id -u node >/dev/null 2>&1; then \
